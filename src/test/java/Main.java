@@ -11,7 +11,7 @@ public class Main {
         driver = new ChromeDriver();
         driver.get("https://translate.google.com/");
         driver.findElement(By.className("er8xn")).click();
-        driver.findElement(By.className("er8xn")).sendKeys("הדר שלי אני אוהב אותך");
+        driver.findElement(By.className("er8xn")).sendKeys("hallo world");
         System.setProperty("webdriver.gecko.driver",Constants.FIREFOXDRIVER_PATH);
         driver = new FirefoxDriver();
         driver.get("https://translate.google.com/");
