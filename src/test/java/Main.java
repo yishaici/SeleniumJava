@@ -16,6 +16,6 @@ public class Main {
         driver = new FirefoxDriver();
         driver.get("https://translate.google.com/");
         driver.findElement(By.className("er8xn")).click();
-        driver.findElement(By.className("er8xn")).sendKeys("הדר שלי אני אוהב אותך");
+        driver.findElement(By.className("er8xn")).sendKeys("hallo world");
     }
 }
